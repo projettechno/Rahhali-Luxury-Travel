@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — Rahhali Luxury Travel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">RAHHALI <span>LUXURY</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="tours.html">Tours</a></li>
+      <li><a href="about.html" class="active">About</a></li><li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="tours.html" class="nav-cta">Book an Experience</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu"><ul>
+    <li><a href="index.html">Home</a></li><li><a href="tours.html">Tours</a></li>
+    <li><a href="about.html">About</a></li><li><a href="reviews.html">Reviews</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul></div>
+
+  <div class="page-hero">
+    <div class="page-hero-bg"></div><div class="grain"></div>
+    <div class="page-hero-content reveal">
+      <p class="section-label" style="justify-content:center;margin-bottom:1rem">Our Story</p>
+      <h1>About <em>Rahhali</em></h1>
+      <p>Passion, expertise, and an unwavering commitment to excellence.</p>
+    </div>
+  </div>
+
+  <!-- STORY SECTION -->
+  <section>
+    <div class="container grid-2">
+      <div class="reveal">
+        <p class="section-label">Who We Are</p>
+        <h2 class="section-title">Born from a <em>Love of Morocco</em></h2>
+        <p style="font-size:0.92rem;color:var(--muted);line-height:1.9;font-weight:300;margin-bottom:1.2rem">Rahhali Luxury Travel was founded with a single ambition: to share the true soul of Morocco with travellers who deserve more than the ordinary. <em>Rahhali</em> — meaning "my traveller" in Darija, the Moroccan dialect — captures our philosophy perfectly.</p>
+        <p style="font-size:0.92rem;color:var(--muted);line-height:1.9;font-weight:300;margin-bottom:1.2rem">We are a team of passionate locals and travel specialists who grew up breathing the spice-filled air of the medinas, hiking the Atlas footpaths, and sleeping under the Saharan stars. That deep, personal knowledge is what we bring to every journey we craft.</p>
+        <p style="font-size:0.92rem;color:var(--muted);line-height:1.9;font-weight:300">Every experience is private, every itinerary is tailored, and every guest is treated like a personal friend — because to us, that is exactly what they are.</p>
+      </div>
+      <div class="reveal" style="position:relative">
+        <div style="border:1px solid var(--border);overflow:hidden">
+          <svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block">
+            <rect width="500" height="600" fill="#1A1208"/>
+            <defs>
+              <radialGradient id="aglow" cx="50%" cy="45%" r="45%">
+                <stop offset="0%" style="stop-color:#C9A84C;stop-opacity:0.18"/>
+                <stop offset="100%" style="stop-color:#C9A84C;stop-opacity:0"/>
+              </radialGradient>
+            </defs>
+            <rect width="500" height="600" fill="url(#aglow)"/>
+            <!-- Ornate Moroccan arch -->
+            <path d="M80 560 L80 270 Q80 120 250 120 Q420 120 420 270 L420 560 Z" fill="none" stroke="#C9A84C" stroke-width="1.5" opacity="0.35"/>
+            <path d="M115 560 L115 285 Q115 165 250 165 Q385 165 385 285 L385 560 Z" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.2"/>
+            <!-- Interior pattern -->
+            <g opacity="0.15" stroke="#E8C97A" stroke-width="0.6" fill="none">
+              <line x1="250" y1="120" x2="250" y2="560"/>
+              <line x1="80" y1="350" x2="420" y2="350"/>
+              <circle cx="250" cy="350" r="80"/>
+              <circle cx="250" cy="350" r="40"/>
+            </g>
+            <!-- Stars -->
+            <g fill="#C9A84C" opacity="0.6">
+              <polygon points="250,70 254,82 266,82 257,89 261,101 250,94 239,101 243,89 234,82 246,82" transform="scale(0.8) translate(62,18)"/>
+            </g>
+            <!-- Zellige floor pattern -->
+            <g opacity="0.12" stroke="#E8C97A" stroke-width="0.5" fill="none" transform="translate(130,430)">
+              <rect width="240" height="120"/>
+              <line x1="0" y1="60" x2="240" y2="60"/>
+              <line x1="80" y1="0" x2="80" y2="120"/>
+              <line x1="160" y1="0" x2="160" y2="120"/>
+              <line x1="0" y1="0" x2="80" y2="60"/><line x1="80" y1="0" x2="0" y2="60"/>
+              <line x1="80" y1="0" x2="160" y2="60"/><line x1="160" y1="0" x2="80" y2="60"/>
+              <line x1="160" y1="0" x2="240" y2="60"/><line x1="240" y1="0" x2="160" y2="60"/>
+            </g>
+            <!-- Sand dunes -->
+            <path d="M0 560 Q125 510 250 535 Q375 560 500 530 L500 600 L0 600 Z" fill="#C9A84C" opacity="0.07"/>
+            <path d="M0 575 Q100 548 200 560 Q310 574 500 550 L500 600 L0 600 Z" fill="#C9A84C" opacity="0.1"/>
+            <!-- Label -->
+            <text x="250" y="395" text-anchor="middle" font-family="Raleway,sans-serif" font-size="9" letter-spacing="5" fill="#C9A84C" opacity="0.6">RAHHALI LUXURY</text>
+            <text x="250" y="415" text-anchor="middle" font-family="Raleway,sans-serif" font-size="8" letter-spacing="3" fill="#C9A84C" opacity="0.4">MARRAKECH · MOROCCO</text>
+          </svg>
+        </div>
+        <div class="about-badge" style="bottom:-1.5rem;right:-1.5rem">
+          <span class="badge-num">5★</span>
+          <span class="badge-text">Rated<br/>Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section style="background:var(--dark);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div class="container">
+      <div class="section-header centered reveal">
+        <p class="section-label">What Drives Us</p>
+        <h2 class="section-title">Our Core <em>Values</em></h2>
+      </div>
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <span class="value-icon">🧭</span>
+          <h3>Deep Local Expertise</h3>
+          <p>We are Moroccan. We grew up here, we know every hidden alley, every trusted artisan, every breathtaking viewpoint that doesn't appear in guidebooks. Our local knowledge is your greatest asset.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-icon">🔒</span>
+          <h3>Total Privacy</h3>
+          <p>Every tour we operate is 100% private. No shared groups, no strangers. Your experience is exclusively yours — your pace, your preferences, your story. Exclusivity is not a luxury, it is a right.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-icon">✨</span>
+          <h3>Uncompromising Quality</h3>
+          <p>From the vehicle that picks you up to the riad where you sleep, every element is handpicked against exacting standards. If we wouldn't stay there ourselves, we won't recommend it to you.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-icon">💬</span>
+          <h3>Seamless Communication</h3>
+          <p>We respond fast, we speak your language, and we are available throughout your entire journey. Questions, changes, surprises — we handle everything so you can simply enjoy.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-icon">🌍</span>
+          <h3>Authentic Experiences</h3>
+          <p>We connect you with real Morocco — the hidden riads, the Berber families, the ancient crafts, the real flavours. Not the tourist version. The real one.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-icon">♻️</span>
+          <h3>Responsible Tourism</h3>
+          <p>We work exclusively with local suppliers, guides and artisans. We believe tourism should enrich the communities it visits. Every journey with us contributes directly to local livelihoods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section>
+    <div class="container">
+      <div class="section-header centered reveal">
+        <p class="section-label">By the Numbers</p>
+        <h2 class="section-title">Rahhali in <em>Numbers</em></h2>
+      </div>
+      <div class="stats-row reveal">
+        <div class="stat-box"><span class="big-num">150+</span><span>Happy Clients</span></div>
+        <div class="stat-box"><span class="big-num">12</span><span>Curated Experiences</span></div>
+        <div class="stat-box"><span class="big-num">5.0</span><span>Average Rating</span></div>
+        <div class="stat-box"><span class="big-num">100%</span><span>Private Tours</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="text-align:center;padding:6rem 4rem;background:var(--dark);border-top:1px solid var(--border)">
+    <div class="container reveal">
+      <p class="section-label" style="justify-content:center">Ready to Explore?</p>
+      <h2 class="section-title">Your Morocco Journey <em>Awaits</em></h2>
+      <p style="font-size:0.88rem;color:var(--muted);max-width:500px;margin:0 auto 2.5rem;font-weight:300;line-height:1.9">Every great journey begins with a single step. Let Rahhali Luxury Travel take care of everything else.</p>
+      <a href="tours.html" class="btn-primary"><span>Browse Our Tours</span></a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom:1rem;display:block">RAHHALI <span>LUXURY</span></a><p>Crafting unforgettable luxury journeys across the Kingdom of Morocco.</p><div class="social-links"><a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></div></div>
+      <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="tours.html">Tours</a></li><li><a href="about.html">About</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-links"><h4>Experiences</h4><ul><li><a href="tours.html#sahara">Sahara Desert</a></li><li><a href="tours.html#imperial">Imperial Cities</a></li><li><a href="tours.html#atlas">Atlas Mountains</a></li><li><a href="tours.html#transfers">Private Transfers</a></li></ul></div>
+      <div class="footer-contact"><h4>Get in Touch</h4><p><a href="mailto:contact@rahhaliluxurytravel.com">contact@rahhaliluxurytravel.com</a></p><p><a href="https://wa.me/212600000000">WhatsApp: +212 600 000 000</a></p><p>Marrakech, Morocco</p></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Rahhali Luxury Travel. All rights reserved.</p><p>rahhaliluxurytravel.com</p></div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
